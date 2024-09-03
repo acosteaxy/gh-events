@@ -8,7 +8,7 @@ on:
     branches:
       - main # main
       - 'dev-*' # dev-name
-      - 'feat/**' # feat/new/button
+      - 'feat/**' # feat/new/button works; for forked repos but with approval, this is not the case for collaborators
     paths-ignore:
       - '.github/workflows/*'
 jobs:
